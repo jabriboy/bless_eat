@@ -1,0 +1,155 @@
+.margin {
+  margin: 0 15%;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html {
+  height: 1500px;
+}
+
+header {
+  background: #C2FE34;
+}
+
+header nav {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav ul {
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 0 0 1rem;
+  padding: 0;
+}
+
+.carousel .margin {
+  background: grey;
+  height: 80vh;
+}
+
+.quality {
+  background: #53EDAC;
+}
+
+.quality .margin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.quality .margin .right {
+  width: 45%;
+}
+
+.quality .margin .right p {
+  text-align: justify;
+}
+
+.philosophy .margin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.philosophy .margin .right {
+  width: 45%;
+}
+
+.philosophy .margin .right p {
+  text-align: justify;
+}
+
+.products {
+  background: #C2FE34;
+}
+
+.products .products-section {
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+.products .products-section h2 {
+  text-align: center;
+}
+
+.products .products-section p {
+  text-align: right;
+  margin-right: 2rem;
+}
+
+.products .products-section .products-images {
+  margin: 0 auto;
+}
+
+.products .products-section .products-images ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem 2rem;
+  padding: 0;
+}
+
+.contact-us .margin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.contact-us .margin .right {
+  width: 45%;
+  padding: 2rem 0 0 0;
+}
+
+.contact-us .margin .right .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+footer {
+  background: #53EDAC;
+  margin: 0;
+}
+
+footer ul {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer ul li p {
+  width: 45%;
+  text-align: justify;
+}
+/*# sourceMappingURL=home.css.map */

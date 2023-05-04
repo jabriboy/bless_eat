@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #6B5142;
+}
+
+body a {
+  text-decoration: none;
+  color: #6B5142;
+}
+
+body ul {
+  list-style-type: none;
+}
+/*# sourceMappingURL=base.css.map */
